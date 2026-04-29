@@ -1,0 +1,13 @@
+//set_3
+package com.c231163.temperature;
+import java.util.Scanner;
+public class Temperature {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A=sc.nextInt(), B=sc.nextInt(), C=sc.nextInt();
+        if(A<=B && B<=C)
+            System.out.println("Yes");
+        else
+            System.out.println("No");
+    }
+}

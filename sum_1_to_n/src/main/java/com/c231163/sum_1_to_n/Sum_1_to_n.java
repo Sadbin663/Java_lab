@@ -1,0 +1,13 @@
+//set_1
+package com.c231163.sum_1_to_n;
+import java.util.Scanner;
+public class Sum_1_to_n {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int sum=0;
+        for(int i=1;i<=n;i++)
+            sum+=i;
+        System.out.println(sum);
+    }
+}
